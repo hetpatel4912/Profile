@@ -146,12 +146,7 @@ if (contactForm) {
 function handleResumeDownload() {
   // In a real application, this would download an actual PDF file
 
-  const link = document.createElement('a');
-  link.href = 'Het_Resume.pdf';  // Path to your actual resume file
-  link.download = 'Het_Resume.pdf'; // Optional: Set the download file name
-  document.body.appendChild(link);
-  link.click();
-  document.body.removeChild(link);
+  window.open('Het_Resume.pdf', '_blank');
   
   // alert('Resume download would start here. Please add your actual resume file to the project.');
 }
