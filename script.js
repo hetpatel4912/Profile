@@ -147,7 +147,7 @@ function handleResumeDownload() {
   // In a real application, this would download an actual PDF file
 
   const link = document.createElement('a');
-  link.href = 'Het Resume.pdf';  // Path to your actual resume file
+  link.href = 'Het_Resume.pdf';  // Path to your actual resume file
   link.download = 'Het_Resume.pdf'; // Optional: Set the download file name
   document.body.appendChild(link);
   link.click();
